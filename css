@@ -1,3 +1,16 @@
+/* Styles from the previous example can be reused here */
+
+.task-input {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.task-input input,
+.task-input select {
+    flex-grow: 1;
+    margin-right: 10px;
+}
 body {
     background-color: #f0f0f0; /* Light gray background */
     font-family: Arial, sans-serif;
@@ -6,9 +19,9 @@ body {
 
 .container {
     background-color: #ffffff; /* White container */
-    margin: 20px auto;
+    margin: 10% auto;
     padding: 20px;
-    width: 300px;
+    width: 90%;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
@@ -18,7 +31,7 @@ h1 {
 }
 
 #taskInput {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     margin-top: 10px;
     border: 1px solid #3498db; /* Blue border for input field */
