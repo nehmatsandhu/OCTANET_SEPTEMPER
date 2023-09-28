@@ -1,0 +1,54 @@
+body {
+    background-color: #f0f0f0; /* Light gray background */
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    background-color: #ffffff; /* White container */
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #3498db; /* Blue header */
+}
+
+#taskInput {
+    width: 90%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #3498db; /* Blue border for input field */
+    border-radius: 3px;
+}
+
+#addTask {
+    background-color: #3498db; /* Blue button */
+    color: #ffffff; /* White text on the button */
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#addTask:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ffffff;
+    border: 1px solid #3498db; /* Blue border for list items */
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 3px;
+}
+
