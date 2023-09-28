@@ -3,14 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List</title>
+    <title>Website Project To-Do List</title>
     <link rel="stylesheet" href="todo.css">
 </head>
 <body>
     <div class="container">
-        <h1>To-Do List</h1>
-        <input type="text" id="taskInput" placeholder="Add a new task">
-        <button id="addTask">Add</button>
+        <h1>Website Project To-Do List</h1>
+        <div class="task-input">
+            <input type="text" id="taskInput" placeholder="Add a new task">
+            <select id="taskCategory">
+                <option value="General">General</option>
+                <option value="Design">Design</option>
+                <option value="Development">Development</option>
+                <option value="Testing">Testing</option>
+            </select>
+            <input type="date" id="taskDeadline">
+            <select id="taskPriority">
+                <option value="Low">Low</option>
+                <option value="Medium">Medium</option>
+                <option value="High">High</option>
+            </select>
+            <input type="text" id="taskLabel" placeholder="Label">
+            <button id="addTask">Add</button>
+        </div>
         <ul id="taskList">
             <!-- Tasks will be added here -->
         </ul>
